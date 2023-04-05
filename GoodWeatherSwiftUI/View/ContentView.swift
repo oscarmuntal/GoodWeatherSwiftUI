@@ -25,7 +25,7 @@ struct ContentView: View {
             
             Text(weatherVM.temperature)
             .foregroundColor(Color.white)
-            .offset(y: -100)
+            .offset(y: 100)
             .padding()
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
