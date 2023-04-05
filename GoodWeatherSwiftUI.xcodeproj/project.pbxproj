@@ -12,6 +12,7 @@
 		1FDCD55E29DE1589004F7E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCD55D29DE1589004F7E5D /* Assets.xcassets */; };
 		1FDCD56129DE1589004F7E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCD56029DE1589004F7E5D /* Preview Assets.xcassets */; };
 		1FDCD56929DE1646004F7E5D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD56829DE1646004F7E5D /* Weather.swift */; };
+		1FDCD56C29DE16FF004F7E5D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCD56B29DE16FF004F7E5D /* WeatherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1FDCD55D29DE1589004F7E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDCD56029DE1589004F7E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FDCD56829DE1646004F7E5D /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		1FDCD56B29DE16FF004F7E5D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		1FDCD55829DE157D004F7E5D /* GoodWeatherSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1FDCD56A29DE16EC004F7E5D /* Services */,
 				1FDCD56729DE162F004F7E5D /* Models */,
 				1FDCD55929DE157D004F7E5D /* GoodWeatherSwiftUIApp.swift */,
 				1FDCD55B29DE157D004F7E5D /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				1FDCD56829DE1646004F7E5D /* Weather.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1FDCD56A29DE16EC004F7E5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FDCD56B29DE16FF004F7E5D /* WeatherService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDCD56C29DE16FF004F7E5D /* WeatherService.swift in Sources */,
 				1FDCD55C29DE157D004F7E5D /* ContentView.swift in Sources */,
 				1FDCD56929DE1646004F7E5D /* Weather.swift in Sources */,
 				1FDCD55A29DE157D004F7E5D /* GoodWeatherSwiftUIApp.swift in Sources */,
